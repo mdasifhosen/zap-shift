@@ -14,7 +14,10 @@ const brandLogos=[amazon,amazon_vector,casio, moonstar,randstad,star]
 
 const Brands = () => {
     return (
-      <div className='mt-[100px]'>
+      <div className="mt-[50px]">
+        <div>
+          <h1 className='text-center font-extrabold p-5 text-[28px]'>We've helped thousands of sales teams</h1>
+        </div>
         <Swiper
           slidesPerView={4}
           loop={true}
