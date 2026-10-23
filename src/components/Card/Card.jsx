@@ -45,7 +45,7 @@ const Card = () => {
           {cards.map((card) => (
             <div
               key={card.id}
-              className={`w-[302px] h-[262px] p-8 rounded-[24px] cursor-pointer m-auto ${card.bgColor}`}
+              className={`w-[302px] h-[262px] p-8 rounded-[24px] m-auto ${card.bgColor}`}
             >
               <div className="text-[56px] text-[#03373D] mb-3">{card.icon}</div>
 
