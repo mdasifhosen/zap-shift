@@ -57,7 +57,9 @@ const SendParcel = () => {
 
        cost = isSameDistrict ? 110 + extraWeight * 40 : 190 + extraWeight * 40;
      }
-   }
+    }
+    
+    data.cost=cost
 
     Swal.fire({
       title: "Please confirm the cost?",
